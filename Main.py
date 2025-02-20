@@ -7,7 +7,7 @@ import matplotlib.pyplot
 
     #Make_packet function
 
-    #Gives us array of packets
+    #Gives us array of packets - binary chunks of the image file
 def make_packet(image_path, packet_size=1024):
     imageData = []
     try:
